@@ -39,11 +39,7 @@ $ cd server
 $ node streamserver.js
 ```
 ### Start the client application
-####First method :
-  ```
-  open client/app/IPCamera/IPCamera.html file directly 
-  ```
-####Second method :
+
   ```
   $ cd client
   $ npm start 
