@@ -1,5 +1,5 @@
 //--
-var nxserver = new NXServer('/home/montassar/rtsp', 8080, '192.168.1.100', 8554);
+var nxserver = new NXServer('/home/montassar/rtsp', 8080, '127.0.0.1', 8554);
 
 // --
 // start node server
