@@ -3,7 +3,7 @@ var connect = null;
 console.log("streamClient ready!");	
 $(document).bind('ready', function () {
 	console.log("streamClient ready!");
-	connect = new Connect('192.168.1.100',8080);
+	connect = new Connect('127.0.0.1',8080);
 	connect.initSocket();
 });
 
