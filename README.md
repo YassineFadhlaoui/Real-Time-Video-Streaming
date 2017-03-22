@@ -3,7 +3,8 @@ a real time streaming video application using RTSP (Real Time Streaming Protocol
 ## Part two of the Project
 [Ceilometer metrics](https://github.com/YassineFadhlaoui/Ceilometer-metrics)
 the second part consist in configuring ceilometer 
-##How it works
+
+## How it works
 * NodeJs launchs a child process (ffmpeg) to get the data from rtsp source
 * ffmpeg gets the data from the RTSP source, it decodes and generates images with jpeg format.
 * Then these images images are sent to client browser through SocketIO
