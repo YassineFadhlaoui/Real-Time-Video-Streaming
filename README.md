@@ -5,9 +5,9 @@ a real time streaming video application using RTSP (Real Time Streaming Protocol
 the second part consist in configuring ceilometer, monitoring instances, creating graphs using sophisticated algorithms
 
 ## How it works
-* NodeJs launchs a child process (ffmpeg) to get the data from rtsp source
-* ffmpeg gets the data from the RTSP source, it decodes and generates images with jpeg format.
-* Then these images images are sent to client browser through SocketIO
+* NodeJs launchs a child process (ffmpeg) to get the data from the rtsp source
+* ffmpeg receives the data from the RTSP source, decodes it and generates images.
+* Then these images are sent to client browser through SocketIO
 
 # Getting Started
 
