@@ -9,10 +9,13 @@ the second part consist in configuring ceilometer, monitoring instances, creatin
 * ffmpeg gets the data from the RTSP source, it decodes and generates images with jpeg format.
 * Then these images images are sent to client browser through SocketIO
 
-## Getting Started
+# Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+## Using Docker Image
+* under development
 
+## Manual Installation
 ```
 $ git clone https://github.com/YassineFadhlaoui/Real-Time-Video-Streaming.git
 $ cd Real-Time-Video-Streaming
@@ -31,7 +34,7 @@ $ cd Real-Time-Video-Streaming
 how to run the project ?
 ### RTSP source
 You need an RTSP source to get this project working for example you can use VLC to spoof a RTSP traffic to do so see [RTSP Streaming using VLC](https://youtu.be/VsahDWNByVQ) 
-####The generated rtsp link must look like rtsp://localhost:8554/vid 
+* The generated rtsp link must look like rtsp://localhost:8554/vid 
 ### Start the server
 First of all you have to replace the second line in the  Real-Time-Video-Streaming/server/streamserver.js file
 by the path of Real-Time-Video-Streaming folder
@@ -49,18 +52,13 @@ $ node streamserver.js
   $ npm start 
   ```
   then visit http://localhost:8000/
-##Requirments
+## Requirments
   * ffmpeg installed
   * nodejs installed
   
-##Used programming languages
+## Used programming languages
   
   * Javascript
-  * AngularJS
-  
-## Built With
-
-* Atom 
 
 ## Authors
 
@@ -71,7 +69,7 @@ $ node streamserver.js
 This project is licensed under the GPL-v3 License - see the [LICENSE](https://github.com/YassineFadhlaoui/Real-Time-Video-Streaming/blob/master/LICENSE) file for details
 
 
-##Note :
+## Note :
 When the application starts you will see the openstack logo because this application is destined to run on an open stack instance 
 but you can run it on your machine as well .
 
